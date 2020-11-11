@@ -9,7 +9,9 @@ public class Prey {
         this.health = health;
     }
 
-    poblic
+    public void getDamage(int value) {
+        health -= value;
+    }
 
     @Override
     public String toString() {
